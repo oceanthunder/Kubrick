@@ -114,11 +114,11 @@ initializeModel()
 
 # Create Gradio app
 with gr.Blocks() as app:
-    gr.Markdown("""<h1 style='text-align:center; color:#4CAF50;'>🎬 Movie Recommender System</h1>
-    <p style='text-align:center; color:#555;'>Enter the name of your favorite movie and discover similar movies you'll love!</p>""")
+    gr.Markdown("""<h1 style='text-align:center; color:#4CAF50;'>🎬 Kubrick</h1>
+    <p style='text-align:center; color:#555;'>Enter the name of a movie you liked and discover similar movies you'll love! (or hate, idk model isn't perfect :) </p>""")
     with gr.Row():
         with gr.Column(scale=1):
-            movie_input = gr.Textbox(label="Enter Movie Title", placeholder="e.g., Inception", lines=1, max_lines=1)
+            movie_input = gr.Textbox(label="Enter Movie Title", placeholder="e.g., Full Metal Jacket", lines=1, max_lines=1)
             submit_button = gr.Button("🔍 Recommend")
         with gr.Column(scale=2):
             output_message = gr.Textbox(label="Message", interactive=False, max_lines=1)
@@ -128,4 +128,3 @@ with gr.Blocks() as app:
 
 # Launch app
 app.launch(share=True)
-
