@@ -22,6 +22,6 @@ Steps to run:
     python app.py
     ```
 
-## Requirements:
+## Extra!:
 
 If you want to make a model file with a higher/lower threshold, first download the [movies dataset](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies), move it to this project's directory, delete the pkl and npz lines, and then run app.py.
