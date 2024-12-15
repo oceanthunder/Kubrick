@@ -2,7 +2,7 @@
 
 Kubrick is a project I created that uses cosine similarity on the overviews of several movies to make recommendations based on the similarity score.  
 The output includes the titles, posters, and overviews of five recommendations.  
-It is deployed using Hugging Face Spaces and built with Gradio. [Spaces link](https://huggingface.co/spaces/sahilgarje/Kubrick).
+It (the web part) is deployed using Hugging Face Spaces and built with Gradio. [Spaces link](https://huggingface.co/spaces/sahilgarje/Kubrick).
 
 Steps to run:
 
