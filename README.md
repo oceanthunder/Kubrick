@@ -1,7 +1,8 @@
 # Kubrick: Movie Recommender System
 
-Kubrick is a thing I made that uses cosine similarity on the overviews of several movies and recommends based on that similarity score.
-The output consists of the titles, posters and overviews of 5 recommendations.
+Kubrick is a project I created that uses cosine similarity on the overviews of several movies to make recommendations based on the similarity score.  
+The output includes the titles, posters, and overviews of five recommendations.  
+It is deployed using Hugging Face Spaces and built with Gradio. [Spaces link](https://huggingface.co/spaces/sahilgarje/Kubrick).
 
 Steps to run:
 
