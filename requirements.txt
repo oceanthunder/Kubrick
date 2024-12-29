@@ -1,0 +1,7 @@
+requests
+pandas
+scikit-learn
+scipy
+gradio
+python-dotenv
+
