@@ -36,10 +36,11 @@ The web app is built with Gradio and deployed using Hugging Face Spaces. [Check 
 ## File Descriptions
 
 - **`app.py`:** The main application file that initializes the Gradio interface and processes user inputs to generate movie recommendations. It also handles the cosine similarity calculations and interacts with the model.
-- **`model.zip`:** Contains the preprocessed data and model files used to compute movie recommendations. This file needs to be unzipped before running the app.
-- **`requirements.txt`:** Lists all the Python dependencies required to run the application, ensuring an easy setup process.
-- **`.env`:** A configuration file where users add their OMDB API key to fetch movie data.
-- **`cosine.png`:** A visual representation of how cosine similarity works, included for better understanding.
+- **`model.zip`:** Contains the model file used to compute movie recommendations. This file needs to be unzipped before running the app.
+- **`requirements.txt`:** Lists all the Python dependencies required to run the application.
+- **`.env`:** A configuration file where users add their OMDB API key to fetch movie posters.
+- **`cosine.png`:** A plotting I made, included for better(questionable) understanding.
+- **`ovMatrix.npz`:** Contains the precomputed matrix of movie overview similarities, which is used to calculate cosine similarity and generate recommendations.
 
 ---
 
